@@ -1,0 +1,7 @@
+git init		;文件中会多出一个.git 命令（隐藏文件）
+git add . 		;意思是将要上传本地所有文件
+git commit -m " 简历代码仓库 "		;对本次修改的一个简单的描述
+;git remote add [命名] [项目地址]
+git remote add TCP-LAN-chat-code https://github.com/514-VAE/TCP-LAN-chat-code.git
+;git push -u [命名] master
+git push -u TCP-LAN-chat-code master
